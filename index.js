@@ -151,3 +151,31 @@ if(num % 2 == 0){
 }else{
   console.log("Unpaire")
 }
+
+var stal = 0
+
+for(var i =  1; i <= 10; i++){
+  stal = stal + i
+}
+
+console.log(stal)
+
+var t= [22,66,888,5,2]
+
+var somme = 0
+
+for(var i = 0; i < 5; i++){
+  somme = somme + t[i]
+}
+
+console.log(somme)
+
+var t= [22,66,888,5,2]
+
+// for(var i in t){
+//   console.log(t[i])
+// }
+
+// for(var eddy of t){
+//   console.log(eddy)
+// }
